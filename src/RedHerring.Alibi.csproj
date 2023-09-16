@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <Title>Red Herring Alibi</Title>
+        <Authors>Mirzipan</Authors>
+        <LangVersion>10</LangVersion>
+        <Description>Simple update scheduler for your game.</Description>
+        <RepositoryUrl>https://github.com/Mirzipan/RedHerring.Alibi</RepositoryUrl>
+        <Copyright>2023</Copyright>
+        <PackageTags>Alibi, Game, Update, Scheduler, Tick</PackageTags>    
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.MD</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon>
+        <Version>1.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.MD" Pack="true" PackagePath="\"/>
+        <None Include="..\icon.png" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Reactive" Version="6.0.0" />
+    </ItemGroup>
+</Project>
