@@ -7,7 +7,7 @@
         <Title>Red Herring Alibi</Title>
         <Authors>Mirzipan</Authors>
         <LangVersion>10</LangVersion>
-        <Description>Simple update scheduler for your game.</Description>
+        <Description>Simple update scheduler and ticker for your game.</Description>
         <RepositoryUrl>https://github.com/Mirzipan/RedHerring.Alibi</RepositoryUrl>
         <Copyright>2023</Copyright>
         <PackageTags>Alibi, Game, Update, Scheduler, Tick</PackageTags>    

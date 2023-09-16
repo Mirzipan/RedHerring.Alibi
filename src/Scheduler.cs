@@ -25,7 +25,7 @@ public sealed class Scheduler : IDisposable
     /// 
     /// </summary>
     /// <param name="startingTime"></param>
-    /// <param name="frameBudget">Maximum amount of time in seconds to spend on a single Tick</param>
+    /// <param name="frameBudget">Maximum amount of time in milliseconds to spend on a single Tick</param>
     public Scheduler(TimeSpan startingTime, long frameBudget)
     {
         _time = startingTime.Ticks;
